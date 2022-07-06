@@ -1,10 +1,10 @@
 
 Name:           libmarble
-Version:        1.3.0
+Version:        42.alpha0
 Release:        1%{?dist}
 Summary:        A GTK Library
 URL:            https://gitlab.com/raggesilver/marble/
-Source0:        https://gitlab.com/raggesilver/marble/-/archive/v1.3.0/marble-v1.3.0.tar.gz
+Source0:        https://gitlab.com/raggesilver/marble/-/archive/wip/gtk4/marble-wip-gtk4.tar.gz
 License:        GPLv3+
 BuildRequires:  meson
 BuildRequires:  vala
@@ -24,7 +24,7 @@ Requires:       libmarble
 
 
 %prep
-%autosetup -n marble-v%{version}
+%autosetup -n marble-wip-gtk4
 
 %build
 %meson
